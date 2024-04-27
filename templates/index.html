@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hello, My name is Faith</h1>
+  {{ result }}
+
+  <h1>Random Dog Breeds</h1>
+  <img src="{{ dog }}" alt="Random dog Image">
+
+  <h1>Random Weather</h1>
+  <p>Temperature: {{ weather_data.main.temp }}°C</p>
+  <p>Description: {{ result_weather.weather.0.description }}</p>
+
+  <h1>Random Students</h1>
+  {{ students }}
+</body>
+</html>
